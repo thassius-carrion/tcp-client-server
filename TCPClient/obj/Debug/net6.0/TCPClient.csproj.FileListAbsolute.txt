@@ -1,0 +1,15 @@
+C:\dev\TCP-client-server\TCPClient\TCPClient\bin\Debug\net6.0\TCPClient.exe
+C:\dev\TCP-client-server\TCPClient\TCPClient\bin\Debug\net6.0\TCPClient.deps.json
+C:\dev\TCP-client-server\TCPClient\TCPClient\bin\Debug\net6.0\TCPClient.runtimeconfig.json
+C:\dev\TCP-client-server\TCPClient\TCPClient\bin\Debug\net6.0\TCPClient.dll
+C:\dev\TCP-client-server\TCPClient\TCPClient\bin\Debug\net6.0\TCPClient.pdb
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.csproj.AssemblyReference.cache
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.AssemblyInfoInputs.cache
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.AssemblyInfo.cs
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.csproj.CoreCompileInputs.cache
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.dll
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\refint\TCPClient.dll
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.pdb
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\TCPClient.genruntimeconfig.cache
+C:\dev\TCP-client-server\TCPClient\TCPClient\obj\Debug\net6.0\ref\TCPClient.dll
