@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "duq9YyKDCccLpwgntrlr7jSErghNnr6ybcNQd/OQ0EbT1SrzFFPMZdBmuLl4bzys5tZKGqgyCEhltNqDY3lLxw==",
+  "dgSpecHash": "2Pom0BSFUmbIblAyT1oLOdZ02Q+qBPG+o93r5tIUuXb/QQ6N/ssZiX8zugqV4BfGRSkZgG04SDcZZ6nDhIeZyA==",
   "success": true,
   "projectFilePath": "C:\\dev\\TCP-client-server\\TCPClient\\TCPServer\\TCPServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\mongodb.driver\\2.15.1\\mongodb.driver.2.15.1.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\mongodb.driver.core\\2.15.1\\mongodb.driver.core.2.15.1.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
