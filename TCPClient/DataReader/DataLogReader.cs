@@ -8,14 +8,10 @@ using System.Threading.Tasks;
 
 namespace TCPClient.DataReader
 {
-    public class DataLogReader
+    public static class DataLogReader
     {
-        public DataLogReader()
-        {
-        }
 
-        //LEITURA DO ARQUIVO .LOG PARA UM ARRAY DAS LINHAS DO ARQUIVO
-        public ArrayList FileReader(string path)
+        public static ArrayList FileReader(string path)
         {
             ArrayList fileRows = new ArrayList();
             string? line;
@@ -29,22 +25,26 @@ namespace TCPClient.DataReader
             return fileRows;
         }
 
-        // SEPARACAO LINHA A LINHA NOS ATRIBUTOS (IP, DATA, ...)
-        public List<AccessLog> AccessLogReader(ArrayList fileRows)
+        public static List<AccessLog> AccessLogReader(ArrayList fileRows)
         {
             List<AccessLog> listLogs = new();
 
             foreach (string row in fileRows)
             {
-                string pattern = @"^([1-9]{0,3}\d+\.[1-9]{0,3}\d+\.[1-9]{0,3}\d+\.[1-9]{0,3}\d+) - - (\[[^\]]+\])";
+                string pattern = "^([1-9]{0,3}\\d+\\.[1-9]{0,3}\\d+\\.[1-9]{0,3}\\d+\\.[1-9]{0,3}\\d+) - - (\\[[^\\]]+\\]) \"([A-Z]+) ([^ \"]+)? (HTTP/[0-9.]+)\" ([1-9]{0,3}\\d+) ([1-9]*)"; // ([^ \"]+) (HTTP/[0-9.]+)\"  ([1-9]\\d+) ([1-9]\\d+)
                 MatchCollection matches = Regex.Matches(row, pattern);
 
                 foreach (Match match in matches)
                 {
                     string ip = match.Groups[1].Value;
                     string data = match.Groups[2].Value;
+                    string httpMethod = match.Groups[3].Value;
+                    string url = match.Groups[4].Value;
+                    string httpProtocol = match.Groups[5].Value;
+                    string statusCode = match.Groups[6].Value;
+                    string size = match.Groups[7].Value;
 
-                    AccessLog log = new AccessLog(ip, data);
+                    AccessLog log = new AccessLog(ip, data, httpMethod, url, httpProtocol, statusCode, size);
                     listLogs.Add(log);
                 }
             }
