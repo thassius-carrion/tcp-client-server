@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Diagnostics;
-using TCPClient;
-using TCPClient.DataReader;
-
+﻿using TCPClient;
 
 Client client = new Client();
 client.StartClient();

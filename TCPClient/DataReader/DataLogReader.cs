@@ -31,7 +31,7 @@ namespace TCPClient.DataReader
 
             foreach (string row in fileRows)
             {
-                string pattern = "^([1-9]{0,3}\\d+\\.[1-9]{0,3}\\d+\\.[1-9]{0,3}\\d+\\.[1-9]{0,3}\\d+) - - (\\[[^\\]]+\\]) \"([A-Z]+) ([^ \"]+)? (HTTP/[0-9.]+)\" ([1-9]{0,3}\\d+) ([1-9]*)"; // ([^ \"]+) (HTTP/[0-9.]+)\"  ([1-9]\\d+) ([1-9]\\d+)
+                string pattern = "^([0-9]{0,3}\\d+\\.[0-9]{0,3}\\d+\\.[0-9]{0,3}\\d+\\.[0-9]{0,3}\\d+) - - (\\[[^\\]]+\\]) \"([A-Z]+) ([^ \"]+)? (HTTP/[0-9.]+)\" ([0-9]{0,3}\\d+) ([0-9]*)";
                 MatchCollection matches = Regex.Matches(row, pattern);
 
                 foreach (Match match in matches)
